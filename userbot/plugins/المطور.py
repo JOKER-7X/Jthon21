@@ -31,17 +31,17 @@ async def amireallyalive(event):
     gvarstatus("ALIVE_EMOJI") or "  - "
     gvarstatus("ALIVE_TEXT")
     CAT_IMG = (
-        gvarstatus("ALIVE_PIC") or " https://telegra.ph/file/e92f1373596365f34b2f8.jpg "
+        gvarstatus("ALIVE_PIC") or " https://telegra.ph/file/f78597f9d31290513c6fd.jpg "
     )
     if CAT_IMG:
         CAT = [x for x in CAT_IMG.split()]
         A_IMG = list(CAT)
         PIC = random.choice(A_IMG)
-        cat_caption = f"𝘑𝘔𝘛𝘏𝘖𝘕 𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘗𝘌𝘙\n"
+        cat_caption = f"𝗦𝙾𝚄𝚁𝙲𝙴 𝗦𝙴𝙻𝚅𝙰\n"
         cat_caption += f"✛━━━━━━━━━━━━━✛\n"
-        cat_caption += f"- MUHAMMAD   :  @RR9R7\n"
-        cat_caption += f"- JASEM  :  @SBB_B\n"
-        cat_caption += f"- LEO  :   @GGGNE\n"
+        cat_caption += f"🔺￤ مطور السورس  : @ttccss\n"
+        cat_caption += f"🔺￤ قناة السورس :  @SU_SELVA\n"
+        cat_caption += f"🔺￤ كروب الدعم :  @br_selva\n"
         cat_caption += f"✛━━━━━━━━━━━━━✛\n"
         await event.client.send_file(
             event.chat_id, PIC, caption=cat_caption, reply_to=reply_to_id

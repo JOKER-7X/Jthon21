@@ -282,7 +282,7 @@ async def ytdl_callback(c_q: CallbackQuery):
                 ),
             ],
         )
-    else:  # Detailed
+    else:  # @ttccss
         index = 1
         await c_q.answer("تم تغيير العرض إلى :  📰  مفصلة", alert=False)
         first = search_data.get(str(index))

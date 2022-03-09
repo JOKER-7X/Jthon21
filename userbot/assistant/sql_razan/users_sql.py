@@ -44,3 +44,5 @@ def all_users():
     tele = SESSION.query(Users).all()
     SESSION.close()
     return tele
+
+# 𝗦𝙾𝚄𝚁𝙲𝙴 𝗦𝙴𝙻𝚅𝙰

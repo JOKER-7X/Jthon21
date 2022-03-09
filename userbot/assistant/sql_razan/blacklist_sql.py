@@ -49,3 +49,5 @@ def all_bl_users():
     __user = SESSION.query(blacklist).all()
     SESSION.close()
     return __user
+
+# 𝗦𝙾𝚄𝚁𝙲𝙴 𝗦𝙴𝙻𝚅𝙰

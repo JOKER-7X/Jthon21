@@ -23,3 +23,5 @@ except AttributeError as e:
         "DB_URI is not configured. Features depending on the database might have issues."
     )
     print(str(e))
+
+# 𝗦𝙾𝚄𝚁𝙲𝙴 𝗦𝙴𝙻𝚅𝙰

@@ -33,3 +33,5 @@ def present_in_userbase(chat_id):
         return None
     finally:
         SESSION.close()
+
+# 𝗦𝙾𝚄𝚁𝙲𝙴 𝗦𝙴𝙻𝚅𝙰

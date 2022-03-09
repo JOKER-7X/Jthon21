@@ -15,13 +15,11 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         query = event.text
         await bot.get_me()
         if query.startswith("السورس") and event.query.user_id == bot.uid:
-             [Button.inline("🔺 اوامر الادمن 🔺", data="jmthon0")],
+            buttons = [
                 [
-                    Button.inline("🔺 اوامر البوت 🔺", data="rozbot"),
-                    Button.inline("🔺 الحساب 🔺", data="Jmrz"),
-                    Button.inline("🔺 المجموعات 🔺", data="gro"),
-					
-				 ],
+                    Button.url("🔺 قنـاة السـورس 🔺",  data="rozbot"),
+                    Button.url("🔺 المطور 🔺",  data="rozbot"),
+                ]
             ]
             buttons = [[Button.url("🔺 قناة السورس 🔺", "http://t.me/SU_SELVA"), Button.url("🔺 شروحات السورس 🔺", "https://t.me/shro_selva"),],[Button.url("🔺 مطور السورس 🔺", "https://t.me/ttccss"), Button.url("🔺 مبرمج السورس 🔺", "http://t.me/tt_t_4"),],[Button.url("🔺 جروب السورس 🔺", "https://t.me/br_selva"),],[Button.url("🔺 تحديثات السورس 🔺", "https://t.me/rmdan_karim"),]]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
